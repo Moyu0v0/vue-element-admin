@@ -89,6 +89,7 @@ export const constantRoutes = [
  */
 export const asyncRoutes = [
   // 404 page must be placed at the end !!!
+  // 如果前面的路由都没有匹配，那么重定向到404页面
   {
     path: '*',
     redirect: '/404',
